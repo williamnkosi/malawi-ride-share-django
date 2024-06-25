@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "malawi-ride-share-django"
+version = "0.1.0"
+description = ""
+authors = ["William Nkosi <william.dev.acc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.6"
+
+[tool.poetry.group.dev.dependencies]
+Django = "^5.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
